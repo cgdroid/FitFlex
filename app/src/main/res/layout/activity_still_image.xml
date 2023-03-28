@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:keepScreenOn="true"
+    android:background="@color/background_still_image">
+
+  <RelativeLayout
+      android:id="@+id/wrapper_size_selector"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:paddingTop="10dp"
+      android:paddingBottom="40dp">
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/size_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentEnd="true"
+        android:theme="@style/Theme.Design.NoActionBar"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/txt_select_image_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Select Image"
+        android:layout_marginLeft="20dp"
+        android:visibility="invisible"/>
+  </RelativeLayout>
+
+  <ImageView
+      android:id="@+id/preview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:adjustViewBounds="true"
+      app:layout_constraintBottom_toTopOf="@+id/control"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/wrapper_size_selector" />
+
+  <com.tmhnry.fitflex.vision.GraphicOverlay
+      android:id="@+id/graphic_overlay"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintLeft_toLeftOf="@id/preview"
+      app:layout_constraintRight_toRightOf="@id/preview"
+      app:layout_constraintTop_toTopOf="@id/preview"
+      app:layout_constraintBottom_toBottomOf="@id/preview"
+      android:visibility="invisible" />
+
+  <RelativeLayout
+      android:id="@id/control"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      android:background="#000"
+      android:gravity="center"
+      android:paddingBottom="32dp"
+      android:paddingTop="12dp">
+
+    <RelativeLayout
+        android:id="@+id/btn_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:background="@drawable/background_button_200"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:paddingVertical="10dp">
+      <ProgressBar
+          android:maxHeight="14sp"
+          android:layout_width="14sp"
+          android:layout_height="14sp"
+          android:layout_centerInParent="true"
+          android:indeterminateTint="@color/white"/>
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_select_img"
+        android:layout_alignTop="@id/btn_loading"
+        android:layout_alignBottom="@id/btn_loading"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:minHeight="0dp"
+        android:layout_marginHorizontal="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:text="@string/select_image"
+        android:background="@drawable/background_button_200"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/img_skip"
+        android:layout_alignTop="@id/btn_loading"
+        android:layout_alignBottom="@id/btn_loading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_baseline_next_plan_24"/>
+  </RelativeLayout>
+
+  <com.rakshakhegde.stepperindicator.StepperIndicator
+      app:layout_constraintTop_toTopOf="parent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:stpi_stepCount="3"
+      android:layout_marginTop="45dp"
+      android:layout_marginHorizontal="16dp"
+      android:id="@+id/stepper_indicator"/>
+
+<!--  <com.anton46.stepsview.StepsView-->
+<!--      app:layout_constraintTop_toTopOf="parent"-->
+<!--      android:layout_marginTop="45dp"-->
+<!--      android:paddingHorizontal="16dp"-->
+<!--      android:paddingBottom="12dp"-->
+<!--      android:id="@+id/spb"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="0dp"-->
+<!--      android:visibility="visible"/>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

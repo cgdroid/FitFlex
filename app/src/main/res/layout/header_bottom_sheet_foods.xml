@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txt_food_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soup"
+        android:textSize="20sp"
+        android:textColor="@color/light_100_with_opacity_soft"/>
+    
+   <LinearLayout
+       app:layout_constraintTop_toBottomOf="@+id/txt_food_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical">
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_column="0">
+                   <TextView
+                       android:gravity="center"
+                       android:layout_centerHorizontal="true"
+                       android:id="@+id/txt_calories_per_serving"
+                       android:text="170"
+                       android:textSize="32sp"
+                       android:textColor="@color/light_100_with_opacity_soft"
+                       android:textStyle="bold"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+                   <TextView
+                       android:layout_centerHorizontal="true"
+                       android:gravity="center"
+                       android:layout_below="@id/txt_calories_per_serving"
+                       android:text="Calories\nper serving"
+                       android:textColor="@color/gray_900"
+                       android:textStyle="bold"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+               </RelativeLayout>
+
+               <androidx.constraintlayout.widget.ConstraintLayout
+                   android:paddingStart="16dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:gravity="center">
+                   <include
+                       android:id="@+id/widget_gauge_bars"
+                       layout="@layout/widget_gauge_bars"
+                       app:layout_constraintBottom_toBottomOf="parent"
+                       app:layout_constraintTop_toTopOf="parent"
+                       app:layout_constraintVertical_bias="0.49"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+                   <TextView
+                       android:gravity="center"
+                       app:layout_constraintStart_toStartOf="parent"
+                       app:layout_constraintTop_toBottomOf="@id/widget_gauge_bars"
+                       android:text="10"
+                       android:textSize="11sp"
+                       android:textColor="@color/gray_900"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+                   <TextView
+                       app:layout_constraintEnd_toEndOf="@id/widget_gauge_bars"
+                       app:layout_constraintTop_toBottomOf="@id/widget_gauge_bars"
+                       android:gravity="center"
+                       android:layout_below="@id/widget_gauge_bars"
+                       android:layout_alignEnd="@id/widget_gauge_bars"
+                       android:text="900"
+                       android:textSize="11sp"
+                       android:textColor="@color/gray_900"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"/>
+               </androidx.constraintlayout.widget.ConstraintLayout>
+           </TableRow>
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical">
+               <TextView
+                   android:id="@+id/txt_relative_ranking"
+                   android:layout_column="0"
+                   android:text="about average"
+                   android:gravity="center"
+                   android:textColor="@color/gray_900"
+                   android:textStyle="bold"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:id="@+id/txt_category_ave_calories"
+                   android:paddingStart="16dp"
+                   android:maxWidth="200dp"
+                   android:gravity="center|start"
+                   android:layout_below="@id/txt_calories_per_serving"
+                   android:text="Products in this category have on average 160 calories."
+                   android:textColor="@color/gray_900"
+                   android:textStyle="bold"
+                   android:textSize="12sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </TableRow>
+       </TableLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical">
+           <TextView
+               android:text="Serving size: "
+               android:textColor="@color/gray"
+               android:textStyle="bold"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:id="@+id/txt_serving_size"
+               android:maxWidth="200dp"
+               android:gravity="center"
+               android:text="1 oz (28g/about 28 nuts)"
+               android:textColor="@color/gray_900"
+               android:textStyle="bold"
+               android:textSize="14sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

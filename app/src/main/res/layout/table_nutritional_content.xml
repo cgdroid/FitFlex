@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:paddingVertical="8dp"
+        android:background="@color/light_100_with_opacity_soft">
+        <TextView android:layout_weight="1"/>
+        <TextView
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Amount\nper serving"
+            android:layout_column="1"/>
+        <TextView
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="My daily\nvalue"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_column="2"/>
+        <View
+            android:layout_width="48dp"
+            android:layout_height="0dp">
+        </View>
+    </TableRow>
+
+    <TableRow
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Calories"
+            android:textSize="12sp"
+            android:textColor="@color/gray_900"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_calories_per_serving"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="170cal"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/txt_my_calories"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="N/A"
+            android:layout_column="2"/>
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@color/gray"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+        </RelativeLayout>
+    </TableRow>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/gray_900"/>
+
+    <TableRow
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Total Fat"
+            android:textSize="12sp"
+            android:textColor="@color/gray_900"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_total_fat_per_serving"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="16g"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/txt_my_total_fat"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="N/A"
+            android:layout_column="2"/>
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@color/gray"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+        </RelativeLayout>
+    </TableRow>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/gray_900"/>
+
+    <TableRow
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Saturated Fat"
+            android:textSize="12sp"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_saturated_fat_per_serving"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="1g"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/txt_my_saturated_fat"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="N/A"
+            android:layout_column="2"/>
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@color/gray"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+        </RelativeLayout>
+    </TableRow>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/gray_900"/>
+
+    <TableRow
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Trans Fat"
+            android:textSize="12sp"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_trans_fat_per_serving"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="0g"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/txt_my_trans_fat"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="N/A"
+            android:layout_column="2"/>
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@color/gray"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+        </RelativeLayout>
+    </TableRow>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/gray_900"/>
+
+    <TableRow
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Protein"
+            android:textSize="12sp"
+            android:textColor="@color/gray_900"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_protein_per_serving"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="1g"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/txt_my_protein"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="N/A"
+            android:layout_column="2"/>
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@color/gray"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+        </RelativeLayout>
+    </TableRow>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/gray_900"/>
+
+    <TableRow
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Fiber"
+            android:textSize="12sp"
+            android:textColor="@color/gray_900"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_fiber_per_serving"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="1g"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/txt_my_fiber"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="N/A"
+            android:layout_column="2"/>
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@color/gray"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+        </RelativeLayout>
+    </TableRow>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/gray_900"/>
+
+    <TableRow
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Carbs"
+            android:textSize="12sp"
+            android:textColor="@color/gray_900"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:paddingEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_carbs_per_serving"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="1g"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/txt_my_carbs"
+            android:maxWidth="120dp"
+            android:paddingHorizontal="28dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="N/A"
+            android:layout_column="2"/>
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:background="@color/gray"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+        </RelativeLayout>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,65 @@
+{
+  "0": {
+    "category": "Band Workout",
+    "name": "BAND LATERAL RAISES",
+    "img": "gif_band_lateral_raises",
+    "description": "Hold one handle of the resistance band in each hand by your sides with your palms facing your thighs. Stand on the middle of the resistance band, with your feet shoulder-width apart. Pull the handles straight up to the sides above shoulder level, and then slowly lower them. Repeat the exercise.",
+    "equivalent-calorie": 11,
+    "type": "COUNT",
+    "count": 16
+  },
+  "1": {
+    "category": "Band Workout",
+    "name": "BAND SEATED ROWING WITH TWIST",
+    "img": "gif_band_seated_rowing_with_twist",
+    "description": "Sit on the mat, with your knees slightly bent in front of you. Loop the resistance band around your soles, with one handle in each hand. Rotate your upper body to the left and pull the left handle backwards. Then return and repeat on the other side. Repeat the exercise.",
+    "equivalent-calorie": 14,
+    "type": "COUNT",
+    "count": 20
+  },
+  "2": {
+    "category": "Band Workout",
+    "name": "BAND HAMMER GRIP CURLS",
+    "img": "gif_band_hammer_grip_curls",
+    "description": "Hold one handle of the resistance band in each hand by your sides with your palms facing forward. Stand on the middle of the resistance band with both feet. Bent your elbows, pull the handles towards your shoulders, and then lower them down. Repeat the exercise.",
+    "equivalent-calorie": 11,
+    "type": "COUNT",
+    "count": 16
+  },
+  "3": {
+    "category": "Band Workout",
+    "name": "BAND TRICEPS KICKBACK",
+    "img": "gif_band_triceps_kickback",
+    "description": "Hold one handle of the resistance band in each hand by your sides. Step on the middle of the resistance band with your feet hip-width apart, your knees slightly bent and your upper body leaned forward. Pull the handles backward until your arms are straight, then slowly return. Repeat the exercise.",
+    "equivalent-calorie": 11,
+    "type": "COUNT",
+    "count": 16
+  },
+  "4": {
+    "category": "Band Workout",
+    "name": "BANDED SQUAT HIP ABDUCTION",
+    "img": "gif_banded_squat_hip_abduction",
+    "description": "Stand with your feet wider than shoulder width apart and your hands on your hips. Put a resistance band above your knees and the other one on your ankles. Squat down until your thighs are parallel to the floor. Stand up and lift your leg to the side. Return and repeat on the other side.",
+    "equivalent-calorie": 11,
+    "type": "COUNT",
+    "count": 16
+  },
+  "5": {
+    "category": "Band Workout",
+    "name": "JUMPING SQUATS",
+    "img": "gif_jumping_squats",
+    "description": "Start in the squat position, then jump up using your abdominal muscles for strength. This exercise works your abdomen.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 46
+  },
+  "6": {
+    "category": "Band Workout",
+    "name": "SKATER JUMP",
+    "img": "gif_skater_jump",
+    "description": "Stand on the floor, bend your legs slightly and lean your upper body forward. Then jump to the right. As you jump, bring your left foot behind you and your left arm in front of you. Then jump to the other side. Repeat the exercise.",
+    "equivalent-calorie": 12,
+    "type": "COUNT",
+    "count": 20
+  }
+}

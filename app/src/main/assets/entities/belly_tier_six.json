@@ -1,0 +1,254 @@
+{
+  "0": {
+    "category": "Belly Tier Six",
+    "name": "JUMPING JACKS",
+    "img": "gif_jumping_jacks",
+    "description": "Start with your feet together and your arms by your sides, then jump up with your feet apart and your hands overhead. Return to the start position then do the next step. This exercise provides a full-body workout and works all your large muscle groups.",
+    "equivalent-calorie": 9,
+    "type": "TIMED",
+    "count": 30
+  },
+  "1": {
+    "category": "Belly Tier Six",
+    "name": "SIT-UPS",
+    "img": "gif_sit_ups",
+    "description": "Lie on your back with your hands behind your ears. Then lift your upper body off the floor and slowly up to the sitting position. Don't tug your neck when you get up. Slowly go back to the start position and repeat the exercise. If your spine hurts, please change to another workout.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 20
+  },
+  "2": {
+    "category": "Belly Tier Six",
+    "name": "SIDE BRIDGES LEFT",
+    "img": "gif_side_bridges_left",
+    "description": "Lie on your right side. Put your right elbow directly under your shoulders and put your left hand on your waist. Place your left leg on your right leg. Raise your hips upward, hold for 2-4 seconds, then go back to the start position. Repeat this exercise.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 20
+  },
+  "3": {
+    "category": "Belly Tier Six",
+    "name": "SIDE BRIDGES RIGHT",
+    "img": "gif_side_bridges_right",
+    "description": "Lie on your right side. Put your right elbow directly under your shoulders and put your left hand on your waist. Place your left leg on your right leg. Raise your hips upward, hold for 2-4 seconds, then go back to the start position. Repeat this exercise.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 20
+  },
+  "4": {
+    "category": "Belly Tier Six",
+    "name": "ABDOMINAL CRUNCHES",
+    "img": "gif_abdominal_crunches",
+    "description": "Lie on your back with your knees bent and your arms stretched forward. Then lift your upper body off the floor. Hold for a few seconds and slowly return. It primarily works the rectus abdominis muscle and the obliques.",
+    "equivalent-calorie": 23,
+    "type": "COUNT",
+    "count": 30
+  },
+  "5": {
+    "category": "Belly Tier Six",
+    "name": "BICYCLE CRUNCHES",
+    "img": "gif_bicycle_crunches",
+    "description": "Lie on the floor with your hands behind your ears. Raise your knees and close your right elbow toward your left knee, then close your left elbow toward your right knee. Repeat the exercise.",
+    "equivalent-calorie": 21,
+    "type": "COUNT",
+    "count": 24
+  },
+  "6": {
+    "category": "Belly Tier Six",
+    "name": "SIDE PLANK RIGHT",
+    "img": "gif_side_plank_right",
+    "description": "Lie on your right side with your forearm supporting your body. Hold your body in a straight line. This exercise targets the abdominal muscles and obliques.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 20
+  },
+  "7": {
+    "category": "Belly Tier Six",
+    "name": "SIDE PLANK LEFT",
+    "img": "gif_side_plank_left",
+    "description": "Lie on your left side with your forearm supporting your body. Hold your body in a straight line. This exercise targets the abdominal muscles and obliques.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 20
+  },
+  "8": {
+    "category": "Belly Tier Six",
+    "name": "V-UP",
+    "img": "gif_v_up",
+    "description": "Lie on your back with your arms and legs extended and your legs squeezed together. Raise your upper body and legs, use your arms to touch your toes, then go back to the start position and repeat the exercise.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 18
+  },
+  "9": {
+    "category": "Belly Tier Six",
+    "name": "PUSH-UP & ROTATION",
+    "img": "gif_push_up_and_rotation",
+    "description": "Start in the push-up position. Then go down for a push-up and as you come up, rotate your upper body and extend your right arm upwards. Repeat the exercise with the other arm. It's a great exercise for the chest, shoulders, arms and core.",
+    "equivalent-calorie": 19,
+    "type": "COUNT",
+    "count": 24
+  },
+  "10": {
+    "category": "Belly Tier Six",
+    "name": "RUSSIAN TWIST",
+    "img": "gif_russian_twist",
+    "description": "Sit on the floor with your knees bent, feel lifted a little bit and back tilted backwards. Then hold your hands together and twist from side to side.",
+    "equivalent-calorie": 23,
+    "type": "COUNT",
+    "count": 48
+  },
+  "11": {
+    "category": "Belly Tier Six",
+    "name": "ABDOMINAL CRUNCHES",
+    "img": "gif_abdominal_crunches",
+    "description": "Lie on your back with your knees bent and your arms stretched forward. Then lift your upper body off the floor. Hold for a few seconds and slowly return. It primarily works the rectus abdominis muscle and the obliques.",
+    "equivalent-calorie": 23,
+    "type": "COUNT",
+    "count": 28
+  },
+  "12": {
+    "category": "Belly Tier Six",
+    "name": "BUTT RIDGE",
+    "img": "gif_butt_ridge",
+    "description": "Lie on your back with knees bent and feet flat on the floor. Put your arms flat at your sides. Then lift your butt up and down.",
+    "equivalent-calorie": 17,
+    "type": "COUNT",
+    "count": 30
+  },
+  "13": {
+    "category": "Belly Tier Six",
+    "name": "HEEL TOUCH",
+    "img": "gif_heel_touch",
+    "description": "Lie on the ground with your legs bent and your arms by your sides. Slightly lift your upper body off the floor and make your hands alternately reach your heels.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 34
+  },
+  "14": {
+    "category": "Belly Tier Six",
+    "name": "MOUNTAIN CLIMBER",
+    "img": "gif_mountain_climber",
+    "description": "Start in the push-up position. Bend your right knee towards your chest and keep your left leg straight, then quickly switch from one leg to the other. This exercise strengthens multiple muscle groups.",
+    "equivalent-calorie": 25,
+    "type": "COUNT",
+    "count": 30
+  },
+  "15": {
+    "category": "Belly Tier Six",
+    "name": "CROSSOVER CRUNCH",
+    "img": "gif_crossover_crunch",
+    "description": "Lie on your back with your knees bent and your hands behind your ears. Raise and twist your torso so your right elbow moves to meet your left knee. Repeat with the other side.",
+    "equivalent-calorie": 19,
+    "type": "COUNT",
+    "count": 24
+  },
+  "16": {
+    "category": "Belly Tier Six",
+    "name": "V-UP",
+    "img": "gif_v_up",
+    "description": "Lie on your back with your arms and legs extended and your legs squeezed together. Raise your upper body and legs, use your arms to touch your toes, then go back to the start position and repeat the exercise.",
+    "equivalent-calorie": 13,
+    "type": "COUNT",
+    "count": 16
+  },
+  "17": {
+    "category": "Belly Tier Six",
+    "name": "PLANK",
+    "img": "gif_plank",
+    "description": "Lie on the floor with your toes and forearms on the ground. Keep your body straight and hold this position as long as you can. This exercise strengthens the abdomen back and shoulders.",
+    "equivalent-calorie": 17,
+    "type": "TIMED",
+    "count": 60
+  },
+  "18": {
+    "category": "Belly Tier Six",
+    "name": "COBRA STRETCH",
+    "img": "gif_cobra_stretch",
+    "description": "Lie down on your stomach and bend your elbows with your hands beneath your shoulders. Then push your chest up off the ground as far as possible. Hold this position for seconds.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 30
+  },
+  "19": {
+    "category": "Belly Tier Six",
+    "name": "SPINE LUMBAR TWIST STRETCH LEFT",
+    "img": "gif_spine_lumbar_twist_stretch_left",
+    "description": "Lie on your back with your legs extended. Lift your left leg up and use your right hand to pull your left knee to the right, but keep your other arm extended to the side on the floor. Hold this position for a few seconds.",
+    "equivalent-calorie": 13,
+    "type": "TIMED",
+    "count": 30
+  },
+  "20": {
+    "category": "Belly Tier Six",
+    "name": "SPINE LUMBAR TWIST STRETCH RIGHT",
+    "img": "gif_spine_lumbar_twist_stretch_right",
+    "description": "Lie on your back with your legs extended. Lift your right leg up and use your left hand to pull your right knee to the left, but keep your other arm extended to the side on the floor. Hold this position for a few seconds.",
+    "equivalent-calorie": 13,
+    "type": "TIMED",
+    "count": 30
+  },
+  "21": {
+    "category": "Belly Tier Six",
+    "name": "BUTT RIDGE",
+    "img": "gif_butt_ridge",
+    "description": "Lie on your back with knees bent and feet flat on the floor. Put your arms flat at your sides. Then lift your butt up and down.",
+    "equivalent-calorie": 11,
+    "type": "COUNT",
+    "count": 20
+  },
+  "22": {
+    "category": "Belly Tier Six",
+    "name": "BICYCLE CRUNCHES",
+    "img": "gif_bicycle_crunches",
+    "description": "Lie on the floor with your hands behind your ears. Raise your knees and close your right elbow toward your left knee, then close your left elbow toward your right knee. Repeat the exercise.",
+    "equivalent-calorie": 17,
+    "type": "COUNT",
+    "count": 20
+  },
+  "23": {
+    "category": "Belly Tier Six",
+    "name": "HEEL TOUCH",
+    "img": "gif_heel_touch",
+    "description": "Lie on the ground with your legs bent and your arms by your sides. Slightly lift your upper body off the floor and make your hands alternately reach your heels.",
+    "equivalent-calorie": 11,
+    "type": "COUNT",
+    "count": 26
+  },
+  "24": {
+    "category": "Belly Tier Six",
+    "name": "ABDOMINAL CRUNCHES",
+    "img": "gif_abdominal_crunches",
+    "description": "Lie on your back with your knees bent and your arms stretched forward. Then lift your upper body off the floor. Hold for a few seconds and slowly return. It primarily works the rectus abdominis muscle and the obliques.",
+    "equivalent-calorie": 13,
+    "type": "COUNT",
+    "count": 20
+  },
+  "25": {
+    "category": "Belly Tier Six",
+    "name": "CROSSOVER CRUNCH",
+    "img": "gif_crossover_crunch",
+    "description": "Lie on your back with your knees bent and your hands behind your ears. Raise and twist your torso so your right elbow moves to meet your left knee. Repeat with the other side.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 20
+  },
+  "26": {
+    "category": "Belly Tier Six",
+    "name": "SIDE BRIDGES LEFT",
+    "img": "gif_side_bridges_left",
+    "description": "Lie on your right side. Put your right elbow directly under your shoulders and put your left hand on your waist. Place your left leg on your right leg. Raise your hips upward, hold for 2-4 seconds, then go back to the start position. Repeat this exercise.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 20
+  },
+  "27": {
+    "category": "Belly Tier Six",
+    "name": "SIDE BRIDGES RIGHT",
+    "img": "gif_side_bridges_right",
+    "description": "Lie on your right side. Put your right elbow directly under your shoulders and put your left hand on your waist. Place your left leg on your right leg. Raise your hips upward, hold for 2-4 seconds, then go back to the start position. Repeat this exercise.",
+    "equivalent-calorie": 15,
+    "type": "COUNT",
+    "count": 20
+  }
+}

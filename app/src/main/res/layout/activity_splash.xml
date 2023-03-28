@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_splash_background"
+    tools:context=".Splash">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:paddingHorizontal="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_splash_description"/>
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@color/primary_background" />-->
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/text_header">-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="133dp"-->
+    <!--            app:cardCornerRadius="8dp"-->
+    <!--            android:layout_margin="@dimen/activity_vertical_margin">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:adjustViewBounds="true"-->
+    <!--                android:scaleType="centerCrop"-->
+    <!--                android:src="@drawable/exercise_man" />-->
+
+    <!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginRight="28dp"-->
+    <!--                    android:fontFamily="@font/esmeralda"-->
+    <!--                    android:text="Male"-->
+    <!--                    android:textSize="53sp"-->
+    <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                    app:layout_constraintTop_toTopOf="parent" />-->
+    <!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--        </androidx.cardview.widget.CardView>-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="133dp"-->
+    <!--            android:layout_margin="@dimen/activity_vertical_margin"-->
+    <!--            app:cardCornerRadius="8dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:adjustViewBounds="true"-->
+    <!--                android:scaleType="centerCrop"-->
+    <!--                android:src="@drawable/exercise_woman" />-->
+    <!--        </androidx.cardview.widget.CardView>-->
+    <!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/text_header"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="75dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_daily"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="23dp"-->
+<!--            android:fontFamily="@font/sports_night_ns_regular"-->
+<!--            android:text="DAILY"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="@color/custom_red"-->
+<!--            android:textSize="65sp" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="23dp"-->
+<!--            android:fontFamily="@font/sports_night_ns_regular"-->
+<!--            android:text="FITNESS"-->
+<!--            android:textAlignment="textEnd"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="75sp"-->
+<!--            app:layout_constraintLeft_toRightOf="@id/text_daily" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/sex_selection_image"-->
+<!--            android:layout_width="400dp"-->
+<!--            android:layout_height="400dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:background="@drawable/sex_list"-->
+<!--            android:scaleType="centerCrop" />-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/droid_sans"-->
+<!--        android:gravity="center"-->
+<!--        android:text="\u00a9 2022-2023 Daily Fitness. All Rights Reserved."-->
+<!--        android:textColor="@color/gray_900"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent" />-->
+
+
+
+</RelativeLayout>

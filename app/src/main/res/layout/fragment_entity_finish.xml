@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.EntityFinishFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/congratulations_section"
+            layout="@layout/congratulations_section" />
+
+        <ImageView
+            android:id="@+id/img_finish"
+            android:translationY="2500dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_intro1"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_congrats"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/lottie_congrats" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_button_100"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:text="@string/next"
+            android:textSize="13sp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/congratulations_splash"
+        layout="@layout/congratulations_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="gone" />
+
+</RelativeLayout>

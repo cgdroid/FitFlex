@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_background"
+    tools:context=".fragment.EntityRestFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/secondary_background"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_rest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/rest"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_rest_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_rest"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            tools:text="00:00" />
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_rest_timer"
+            android:layout_centerHorizontal="true">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_add_timer"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:elevation="0dp"
+                android:shadowColor="@color/transparent"
+                android:paddingVertical="5dp"
+                android:text="+20s"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:background="@drawable/background_button_800"
+                android:textAllCaps="false" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_skip_rest"
+                android:elevation="0dp"
+                android:shadowColor="@color/transparent"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:layout_marginStart="16dp"
+                android:paddingVertical="5dp"
+                android:text="Skip"
+                android:textStyle="bold"
+                android:textColor="@color/light_100"
+                android:textSize="11sp"
+                android:background="@drawable/background_button_700"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            tools:ignore="RelativeOverlap">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NEXT "
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/txt_relative_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    tools:text="12/16"
+                    android:textColor="@color/light_100"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/txt_next_entity_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="HIGH STEPPING"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/txt_next_entity_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="00:46"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_next_entity"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/gif_high_stepping"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+

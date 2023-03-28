@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/light_100">
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:paddingHorizontal="6dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:lottie_rawRes="@raw/lottie_rays"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="false"/>-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="32dp"
+        android:paddingHorizontal="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:lottie_rawRes="@raw/lottie_star"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"/>
+
+    <TextView
+        android:id="@+id/txt_calories_burned"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:translationX="1600dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="CALORIES BURNED: 56.2"
+        android:layout_above="@id/txt_batch_duration"
+        />
+
+    <TextView
+        android:translationX="-1600dp"
+        android:id="@+id/txt_batch_duration"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="TOTAL DURATION: 24 Seconds"
+        />
+
+</RelativeLayout>

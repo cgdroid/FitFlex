@@ -1,0 +1,101 @@
+{
+  "0": {
+    "category": "Stay In Shape",
+    "name": "JUMPING JACKS",
+    "img": "gif_jumping_jacks",
+    "description": "Start with your feet together and your arms by your sides, then jump up with your feet apart and your hands overhead. Return to the start position then do the next rep. This exercise provides a full-body workout and works at your large muscle groups.",
+    "equivalent-calorie": 3.83,
+    "type": "TIMED",
+    "count": 30
+  },
+  "1": {
+    "category": "Stay In Shape",
+    "name": "SQUAT PULSES",
+    "img": "gif_squat_pulses",
+    "description": "Stand with your feet shoulder width apart. Bend your arms in front of you to keep balance. Lower your body until your thighs are parallel with the floor. Come half way up instead of coming all the way up, then squat down again. Repeat.",
+    "equivalent-calorie": 3.83,
+    "type": "TIMED",
+    "count": 30
+  },
+  "2": {
+    "category": "Stay In Shape",
+    "name": "JUMPING SQUATS",
+    "img": "gif_jumping_squats",
+    "description": "Start in the squat position, then jump up using your abdominal muscles for strength. This exercise works your abdomen.",
+    "equivalent-calorie": 5.88,
+    "type": "TIMED",
+    "count": 46
+  },
+  "3": {
+    "category": "Stay In Shape",
+    "name": "PLANK HIP DIPS",
+    "img": "gif_plank_hip_dips",
+    "description": "Start in the standard plank position. Twist your spine to your left side until your left leg touches the floor, then twist to the other side. Repeat the exerfcise.",
+    "equivalent-calorie": 5.88,
+    "type": "TIMED",
+    "count": 46
+  },
+  "4": {
+    "category": "Stay In Shape",
+    "name": "FLUTTER KICK SQUATS",
+    "img": "gif_flutter_kick_squats",
+    "description": "Start in the classic squat position. Jump up, putting one foot forward and the other foot backward, then jump and switch legs. Jump again to come back to the squat position and repeat the exercise.",
+    "equivalent-calorie": 5.88,
+    "type": "TIMED",
+    "count": 46
+  },
+  "5": {
+    "category": "Stay In Shape",
+    "name": "WALKING SQUATS",
+    "img": "gif_walking_squats",
+    "description": "Perform a squat position. Walk several steps to your left, then walk back. Repeat the exercise.",
+    "equivalent-calorie": 5.88,
+    "type": "TIMED",
+    "count": 46
+  },
+  "6": {
+    "category": "Stay In Shape",
+    "name": "JUMPING JACKS",
+    "img": "gif_jumping_jacks",
+    "description": "Start with your feet together and your arms by your sides, then jump up with your feet apart and your hands overhead. Return to the start position then do the next rep. This exercise provides a full body workout and works all your large muscle groups.",
+    "equivalent-calorie": 3.83,
+    "type": "TIMED",
+    "count": 30
+  },
+  "7": {
+    "category": "Stay In Shape",
+    "name": "WALL PUSH-UPS",
+    "img": "gif_wall_push_ups",
+    "description": "Stand in front of a wall one big step away from it. Then put your hands out straight towards the wall and lean against it. Lift your heels. Slowly bend your elbows and press your upper body towards the wall. Push back and repeat the exercise. Remember to keep your body straight.",
+    "equivalent-calorie": 3.83,
+    "type": "TIMED",
+    "count": 30
+  },
+  "8": {
+    "category": "Stay In Shape",
+    "name": "RUSSIAN TWIST",
+    "img": "gif_russian_twist",
+    "description": "Sit on the floor with your knees bent, feet lifted a little bit and back titlted backwards. Then hold your hands together and twist from side to side.",
+    "equivalent-calorie": 3.83,
+    "type": "TIMED",
+    "count": 30
+  },
+  "9": {
+    "category": "Stay In Shape",
+    "name": "BACKWARD LUNGE",
+    "img": "gif_backward_lunge",
+    "equivalent-calorie": 3.83,
+    "description": "Stand with your feet shoulder width apart and your hands on your hips. Step a big step backward with your right leg and lower your body until your left thigh is parallel to the floor. Return and repeat with the other side.",
+    "type": "TIMED",
+    "count": 30
+  },
+  "10": {
+    "category": "Stay In Shape",
+    "name": "MOUNTAIN CLIMBER",
+    "img": "gif_mountain_climber",
+    "equivalent-calorie": 3.83,
+    "description": "Stand in the push-up position. Bend your right knee towards your chest and keep your left leg straight, then quickly switch from one leg to the other. This exercise strengthens multiple muscle groups.",
+    "type": "TIMED",
+    "count": 30
+  }
+}

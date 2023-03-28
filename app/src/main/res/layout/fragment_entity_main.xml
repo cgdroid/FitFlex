@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.EntityMainFragment">
+
+    <RelativeLayout
+        android:id="@+id/wrapper_entity_gif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gif_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_entity"
+            android:layout_width="345dp"
+            android:layout_height="345dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/gif_high_stepping" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="72dp"
+        android:paddingBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_prev_entity"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_entity_gif">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_entity_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="HIGH STEPPING" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_baseline_help_outline_24"
+                app:tint="@color/gray" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_entity_count"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:text="00:17" />
+
+        <LinearLayout
+            android:id="@+id/btn_pause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button_200"
+            android:layout_marginHorizontal="68dp"
+            android:paddingVertical="8dp"
+            android:gravity="center">
+            <ImageView
+                android:paddingTop="2dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_baseline_pause_24"
+                android:layout_marginEnd="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAUSE"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_prev_entity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="60dp"
+        android:background="@color/transparent"
+        android:drawableStart="@drawable/ic_baseline_skip_previous_24"
+        android:drawableTint="@color/gray_900"
+        android:text="Previous"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:textColor="@color/gray_900"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next_entity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="60dp"
+        android:background="@color/transparent"
+        android:drawableStart="@drawable/ic_baseline_skip_next_24"
+        android:drawableTint="@color/gray_900"
+        android:text="Skip"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textColor="@color/gray_900"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

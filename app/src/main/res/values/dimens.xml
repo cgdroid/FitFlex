@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="button_stroke_100">2dp</dimen>
+    <dimen name="radio_button_diameter_100">18dp</dimen>
+    <dimen name="radio_button_stroke_100">1dp</dimen>
+    <dimen name="radio_button_stroke_200">7dp</dimen>
+</resources>

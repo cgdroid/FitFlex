@@ -1,0 +1,119 @@
+{
+  "0": {
+    "category": "Immunity Booster",
+    "name": "HIGH STEPPING",
+    "img": "gif_high_stepping",
+    "description": "Run in place while pulling your knees as high as possible with each step. Keep your upper body upright during this exercise.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 46
+  },
+  "1": {
+    "category": "Immunity Booster",
+    "name": "JUMPING SQUATS",
+    "img": "gif_jumping_squats",
+    "description": "Start in the squat position, then jump up using your abdominal muscles for strength. This exercise works your abdomen.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 46
+  },
+  "2": {
+    "category": "Immunity Booster",
+    "name": "PLANK HIP DIPS",
+    "img": "gif_plank_hip_dips",
+    "description": "Start in the standard plank position. Twist your spine to your left side until your left leg touches the floor, then twist to the other side. Repeat the exerfcise.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 46
+  },
+  "3": {
+    "category": "Immunity Booster",
+    "name": "FLUTTER KICK SQUATS",
+    "img": "gif_flutter_kick_squats",
+    "description": "Start in the classic squat position. Jump up, putting one foot forward and the other foot backward, then jump and switch legs. Jump again to come back to the squat position and repeat the exercise.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 46
+  },
+  "4": {
+    "category": "Immunity Booster",
+    "name": "WALKING SQUATS",
+    "img": "gif_walking_squats",
+    "description": "Perform a squat position. Walk several steps to your left, then walk back. Repeat the exercise.",
+    "equivalent-calorie": 11,
+    "type": "TIMED",
+    "count": 46
+  },
+  "5": {
+    "category": "Immunity Booster",
+    "name": "JUMPING JACKS",
+    "img": "gif_jumping_jacks",
+    "description": "Start with your feet together and your arms by your sides, then jump up with your feet apart and your hands overhead. Return to the start position then do the next rep. This exercise provides a full body workout and works all your large muscle groups.",
+    "equivalent-calorie": 8,
+    "type": "TIMED",
+    "count": 30
+  },
+  "6": {
+    "category": "Immunity Booster",
+    "name": "SKATER JUMP",
+    "img": "gif_skater_jump",
+    "description": "Stand on the floor, bend your legs slightly and lean your upper body forward. Then jump to the right. As you jump, bring your left foot behind you and your left arm in front of you. Then jump to the other side. Repeat the exercise.",
+    "equivalent-calorie": 12,
+    "type": "COUNT",
+    "count": 20
+  },
+  "7": {
+    "category": "Immunity Booster",
+    "name": "DUMMBELL JUMPING SQUAT",
+    "img": "gif_dumbbell_jumping_squat",
+    "description": "Stand with your feet a little wider than shoulder width apart and each of your hands holding a dumbbell at each side. Squat down until your thighs are parallel to the floor, then push on your heels to jump up. Return to the starting position and repeat the exercise.",
+    "equivalent-calorie": 14,
+    "type": "TIMED",
+    "count": 30
+  },
+  "8": {
+    "category": "Immunity Booster",
+    "name": "ARNOLD DUMBBELL PRESS",
+    "img": "gif_arnold_dumbbell_press",
+    "description": "Hold a dumbbell in each hand. Bend your elbows in front of you and keep your palms towards your body. Raise your hands above your head while rotating your arms to make your palms face forward. Lower them and repeat.",
+    "equivalent-calorie": 16,
+    "type": "COUNT",
+    "count": 16
+  },
+  "9": {
+    "category": "Immunity Booster",
+    "name": "DUMBBELL STEP-UP ONTO CHAIR",
+    "img": "gif_dumbbell_step_up_onto_chair",
+    "description": "Hold a dumbbell in each hand at your sides. Stand in front of a chair. Then step up on the chair and step back down. The exercise works to strengthen the legs and buttocks.",
+    "equivalent-calorie": 12,
+    "type": "COUNT",
+    "count": 20
+  },
+  "10": {
+    "category": "Immunity Booster",
+    "name": "DUMBBELL PULLOVER",
+    "img": "gif_dumbbell_pullover",
+    "description": "Lie on a bench with your head slightly hanging off the edge of the bench. Extend your arms over your chest and hold a dumbbell with your hands interlocked. Keep your elbows tight, lower the dumbbell backward as low as you can, then slowly return. Repeat the exercise.",
+    "equivalent-calorie": 14,
+    "type": "COUNT",
+    "count": 16
+  },
+  "11": {
+    "category": "Immunity Booster",
+    "name": "DUMBBELL PLIE SQUATS",
+    "img": "gif_dumbbell_plie_squats",
+    "description": "Stand with your feet a little wider than shoulder width apart and hold a dumbbell in your hands. Lower your body until your thighs are parallel to the floor. Return to the starting position and repeat the exercise.",
+    "equivalent-calorie": 14,
+    "type": "COUNT",
+    "count": 16
+  },
+  "12": {
+    "category": "Immunity Booster",
+    "name": "BENT OVER ROW",
+    "img": "gif_bent_over_row",
+    "description": "Stand with your feet shoulder width apart. Lean forward, slightly bend your knees and sit your hips back. Hold a dumbbell in each hand. Bend your elbows, and pull them backward. Lower your hands, and repeat the exercise.",
+    "equivalent-calorie": 14,
+    "type": "COUNT",
+    "count": 16
+  }
+}

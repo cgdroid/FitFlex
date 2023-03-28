@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_splash_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="64dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingHorizontal="56dp"
+                android:src="@drawable/img_splash_description"/>
+            <include
+                layout="@layout/my_textfield"
+                android:id="@+id/txt_field_email"
+                android:layout_marginHorizontal="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                layout="@layout/my_textfield"
+                android:id="@+id/txt_field_password"
+                android:layout_marginHorizontal="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="64dp"
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="33dp"
+                android:background="@drawable/background_button_200"
+                android:text="LOGIN"
+                android:textColor="@color/white" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="32dp"
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="33dp"
+                android:background="@drawable/background_button_500"
+                android:text="REGISTER"
+                android:textColor="@color/light_100" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="64dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
